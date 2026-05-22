@@ -9,7 +9,7 @@ import Diario from "./components/diario";
 export default function Home() {
   const slides = [
     { src: "/bicho.png", alt: "foto del bicho", caption: "<strong>Sujeto 5073</strong> — La entidad biológica en observación." },
-    { src: "/lab_room.png", alt: "Foto del laboratorio", caption: "<strong>Hábitat de Aislamiento</strong> — Tu celda y zona de contención." },
+    { src: "/", alt: "Foto del laboratorio", caption: "<strong>Hábitat de Aislamiento</strong> — Tu celda y zona de contención." },
     { src: "/prueba.jpg", alt: "Foto de la prueba", caption: "<strong>Evaluación Cognitiva</strong> — Ejercicio de calibración diaria." },
   ];
 
@@ -77,12 +77,13 @@ export default function Home() {
             <span className="text-terracotta text-lg">■</span>
           </div>
 
-          <div className="grid place-items-center mt-4">
+          <div className="flex flex-row gap-6 mt-4">
             <Spoiler 
               imageSrc="/bicho.png" 
               alt="Sujeto 5073" 
               caption="¿Estarías dispuesto a cooperar en todos los experimentos o intentarías escapar a toda costa?" 
             />
+            
           </div>
         </section>
       </main>

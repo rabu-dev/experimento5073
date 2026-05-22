@@ -2,16 +2,6 @@
 
 import React, { useState } from "react";
 
-/**
- * Spoiler – a simple card that shows an image (blurred by default) with a caption
- * underneath. When the user hovers or focuses the image the blur is removed,
- * revealing the picture.
- *
- * Props:
- *  - imageSrc: string – URL or import of the image.
- *  - alt?: string – Alt text for accessibility.
- *  - caption?: string – Text displayed below the image.
- */
 interface SpoilerProps {
   imageSrc: string;
   alt?: string;
@@ -67,4 +57,3 @@ export default function Spoiler({
     </div>
   );
 }
-

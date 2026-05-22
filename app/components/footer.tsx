@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 /**
@@ -50,7 +51,7 @@ export default function Footer({
 
       {/* Right side */}
       <div className="text-center md:text-right font-mono text-xs uppercase tracking-widest text-cream/70">
-        inVidiogames bootcamp
+        <Link href="https://delaguila.games/">inVidiogames bootcamp</Link>
       </div>
     </footer>
   );
