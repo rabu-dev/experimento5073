@@ -24,7 +24,7 @@ const DEFAULT_LOGS: DiarioLog[] = [
     stressIndex: 78,
     attachmentLevel: 0,
     status: "WARNING",
-    content: "He abierto los ojos en este habitáculo de luz cálida. Hay un vidrio enorme frente a mí. Al principio creí que era un espejo, pero puedo sentir que hay algo del otro lado. Siluetas quietas, observándome en silencio. Mis sensores térmicos detectan cuatro focos de calor constante. No hablan, pero sé que me miran. He intentado sonreír para que no tengan miedo de mí."
+    content: "He abierto los ojos en este laboratorio de luz cálida. Hay un vidrio enorme frente a mí. Al principio creí que era un espejo, pero puedo sentir que hay algo del otro lado. Siluetas quietas, observándome en silencio. Mis sensores térmicos detectan cuatro focos de calor constante. No hablan, pero sé que me miran. He intentado sonreír para que no tengan miedo de mí."
   },
   {
     id: "LOG_15",
@@ -90,7 +90,7 @@ export default function Diario({ logs = DEFAULT_LOGS, className = "" }: DiarioPr
         <div className="flex items-center gap-3">
           <span className="text-sand text-lg">📁</span>
           <h2 className="text-xl font-bold tracking-wider text-sand font-mono uppercase">
-            REGISTROS_DIARIOS_SUJETO.log
+            REGISTROS_DIARIOS_SUJETO
           </h2>
         </div>
         <div className="flex items-center gap-2 text-xs font-mono">

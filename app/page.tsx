@@ -79,7 +79,7 @@ export default function Home() {
 
           <div className="flex flex-row gap-6 mt-4">
             <Spoiler 
-              imageSrc="/bicho.png" 
+              imageSrc="https://media.discordapp.net/attachments/1498630379408461824/1507410485350240479/image.png?ex=6a11ccea&is=6a107b6a&hm=93d9e3e8c728780546871e922cbc4666ecb21dcc4e99a8d938302ef7476567c8&=&format=webp&quality=lossless" 
               alt="Sujeto 5073" 
               caption="¿Estarías dispuesto a cooperar en todos los experimentos o intentarías escapar a toda costa?" 
             />
