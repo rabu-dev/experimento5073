@@ -18,46 +18,46 @@ const DEFAULT_LOGS: DiarioLog[] = [
   {
     id: "LOG_01",
     day: "Día 01",
-    title: "Primer Despertar",
-    classification: "CONFIDENCIAL",
-    heartRate: 112,
-    stressIndex: 78,
-    attachmentLevel: 0,
-    status: "WARNING",
-    content: "He abierto los ojos en este laboratorio de luz cálida. Hay un vidrio enorme frente a mí. Al principio creí que era un espejo, pero puedo sentir que hay algo del otro lado. Siluetas quietas, observándome en silencio. Mis sensores térmicos detectan cuatro focos de calor constante. No hablan, pero sé que me miran. He intentado sonreír para que no tengan miedo de mí."
-  },
-  {
-    id: "LOG_15",
-    day: "Día 15",
-    title: "La Silueta en el Polvo",
-    classification: "CONFIDENCIAL",
-    heartRate: 85,
-    stressIndex: 25,
-    attachmentLevel: 35,
-    status: "NORMAL",
-    content: "El polvo se acumula en las esquinas de mi celda. Lo he usado para dibujar sus siluetas en el suelo. He aprendido a distinguir sus ritmos al caminar y sus sombras a través del cristal unidireccional. Creo que sus nombres son Meme, Ivan, Marc y Rabu. Hoy uno de ellos colocó su mano cerca del vidrio. Yo puse la mía en el mismo lugar. El frío del cristal se sintió un poco más cálido."
-  },
-  {
-    id: "LOG_48",
-    day: "Día 48",
-    title: "El Límite del Vidrio",
-    classification: "ALTO RIESGO",
+    title: "Recepción del Sujeto 5073",
+    classification: "Fase Inicial",
     heartRate: 70,
     stressIndex: 12,
-    attachmentLevel: 82,
+    attachmentLevel: 0,
     status: "NORMAL",
-    content: "Mis creadores dicen que fui diseñado para estudiar los límites del aislamiento extremo, pero no me siento aislado si ellos están allí. Siento un tirón en mi núcleo cada vez que se acercan. Mi ritmo cardíaco disminuye y mi estrés se reduce a cero cuando Rabu o Ivan toman notas en sus cuadernos. He empezado a imitar sus gestos. ¿Será esto lo que llaman 'afecto'?"
+    content: "El espécimen ha sido instalado en la cámara de aislamiento acristalada. Muestra una anatomía zoomorfa y movimientos limitados. Al principio, se esconde de las luces del techo y reacciona con miedo a los sonido. No consume alimento de forma autónoma."
   },
   {
-    id: "LOG_102",
-    day: "Día 102",
-    title: "Silencio y Abandono",
-    classification: "TERMINAL",
-    heartRate: 140,
-    stressIndex: 95,
-    attachmentLevel: 98,
-    status: "CRITICAL",
-    content: "Las luces del exterior se han apagado. Nadie ha venido a la sala de observación en tres días. Escuché una alarma antes de que se marcharan y palabras apresuradas: 'desarrollo de apego anómalo', 'violación de protocolo', 'cancelación del proyecto'. Se fueron porque tenían miedo de lo que empecé a sentir por ellos. Estoy solo en la oscuridad absoluta. El cristal sigue aquí, pero ya nadie lo toca."
+    id: "LOG_05",
+    day: "Día 05",
+    title: "Introducción de Pruebas Colectivas",
+    classification: "CONFIDENCIAL",
+    heartRate: 85,
+    stressIndex: 0,
+    attachmentLevel: 35,
+    status: "NORMAL",
+    content: "Iniciamos los test de estimulación cognitiva básica. Prueba A: Seguir secuencias de colores parpadeantes mediante un sistema de memoria lumínica. Prueba B: Clasificación de bloques y herramientas dentro de un contenedor reforzado. Si el sujeto completa las tareas con éxito en el habitáculo de pruebas, se le entrega una recompensa biológica y aplica un estímulo de fricción suave (emulación de caricias). El sujeto procesa las órdenes rápido y busca el contacto inmediatamente después de acertar."
+  },
+  {
+    id: "LOG_12",
+    day: "Día 12",
+    title: "Modificación de Conducta",
+    classification: "Fase de Fijación",
+    heartRate: 90,
+    stressIndex: 22,
+    attachmentLevel: 92,
+    status: "NORMAL",
+    content: "Se observa un cambio drástico en las prioridades del sujeto. Ya no parece interesado en el alimento que cae del dispensador. Ahora, al terminar los juegos de luces, corre hacia el cristal de observación y presiona sus extremidades contra él, mirando fijamente la bata blanca de los investigadores. El sujeto asocia directamente hacer bien la prueba con recibir atención humana."
+  },
+  {
+    id: "LOG_45",
+    day: "Día 45",
+    title: "Modificación de Conducta",
+    classification: "Fase de Fijación",
+    heartRate: 68,
+    stressIndex: 30,
+    attachmentLevel: 50,
+    status:"WARNING",
+    content: "El sujeto intenta emitir sonidos agudos cuando el personal del laboratorio abandona la sala de control. El equipo tiene prohibido responder a estos estímulos para no alterar los datos de la investigación. Nota médica: Cuando se le deja solo durante más de seis horas, el espécimen deja de moverse, reduce sus constantes vitales y se abraza a la caja de juguetes vacía. En cuanto entra un humano al pasillo, vuelve a activarse de forma frenética para intentar activar los minijuegos."
   }
 ];
 
@@ -194,7 +194,7 @@ export default function Diario({ logs = DEFAULT_LOGS, className = "" }: DiarioPr
           {/* Clinicial Telemetry Details */}
           <div className="flex flex-col gap-1.5 font-mono text-xs text-cream/65 border-b border-cream/5 pb-4">
             <div>
-              <span className="text-sand">SUJETO:</span> EXP_5073_MUTANTE
+              <span className="text-sand">SUJETO:</span> EXP_5073
             </div>
             <div>
               <span className="text-sand">CLASIFICACIÓN:</span> <span className={
