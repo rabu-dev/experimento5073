@@ -26,3 +26,10 @@ body {
   overflow-x: hidden;
 }
 
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: linear-gradient(to right, rgba(242, 204, 143, 0.1) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(242, 204, 143, 0.1) 1px, transparent 1px);
+}
+
+

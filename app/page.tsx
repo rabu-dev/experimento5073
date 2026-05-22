@@ -4,6 +4,7 @@ import PartePrincipal from "./components/Parteprincipal";
 import Carusel from "./components/carusel";
 import Spoiler from "./components/Spoiler";
 import Footer from "./components/footer";
+import Diario from "./components/diario";
 
 export default function Home() {
   const slides = [
@@ -52,6 +53,18 @@ export default function Home() {
             size={45} // La foto ocupa el 45% del ancho del contenedor en desktop
             className="w-full my-4"
           />
+        </section>
+
+        {/* Subject Observation Diary Section */}
+        <section className="max-w-6xl mx-auto w-full px-6 flex flex-col gap-6 mt-6">
+          <div className="flex items-center gap-3 border-b border-sand/20 pb-3">
+            <span className="text-terracotta text-lg">■</span>
+            <h3 className="text-xl font-bold uppercase tracking-widest text-sand">
+              Diario de Observación del Sujeto
+            </h3>
+          </div>
+          
+          <Diario className="mt-4" />
         </section>
 
         {/* Encrypted File Section */}
