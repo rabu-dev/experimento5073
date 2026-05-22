@@ -53,9 +53,9 @@ const DEFAULT_LOGS: DiarioLog[] = [
     day: "Día 45",
     title: "Modificación de Conducta",
     classification: "Fase de Fijación",
-    heartRate: 68,
-    stressIndex: 30,
-    attachmentLevel: 50,
+    heartRate: 67,
+    stressIndex: 98,
+    attachmentLevel: 100,
     status:"WARNING",
     content: "El sujeto intenta emitir sonidos agudos cuando el personal del laboratorio abandona la sala de control. El equipo tiene prohibido responder a estos estímulos para no alterar los datos de la investigación. Nota médica: Cuando se le deja solo durante más de seis horas, el espécimen deja de moverse, reduce sus constantes vitales y se abraza a la caja de juguetes vacía. En cuanto entra un humano al pasillo, vuelve a activarse de forma frenética para intentar activar los minijuegos."
   }
