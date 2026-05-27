@@ -1,4 +1,4 @@
-// import Image from "next/image"; // Image not used in this page
+
 import Header from "./components/header";
 import PartePrincipal from "./components/Parteprincipal";
 import Carusel from "./components/carusel";

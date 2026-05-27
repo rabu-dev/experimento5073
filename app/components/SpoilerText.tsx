@@ -2,11 +2,7 @@
 
 import React, { useState } from "react";
 
-/**
- * SpoilerText displays a block of text that is blurred ("encrypted") until the user hovers
- * over the component. It mirrors the visual style of the image based {@link Spoiler} component
- * but works with plain text content.
- */
+
 interface SpoilerTextProps {
   /** The text that will be revealed on hover */
   text: string;
