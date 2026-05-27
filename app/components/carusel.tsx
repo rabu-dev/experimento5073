@@ -1,14 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 
-/**
- * Simple image carousel.
- * For each slide we show the image and, underneath it, a descriptive caption.
- *
- * Props:
- *  - slides: array of objects `{ src: string; alt?: string; caption?: string }`
- *  - width / height optional styling via className.
- */
+
 interface Slide {
   src: string;
   alt?: string;
@@ -16,13 +9,10 @@ interface Slide {
 }
 
 interface CaruselProps {
-  /**
-   * Width of the image as a percentage of its container (e.g., 45 for 45%).
-   * Si no se especifica, la imagen ocupa el 100% del ancho disponible.
-   */
+  
   size?: number;
   slides: Slide[];
-  /** Optional CSS class for the outer container */
+  
   className?: string;
 }
 

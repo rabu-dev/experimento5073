@@ -6,7 +6,6 @@ interface SpoilerProps {
   imageSrc: string;
   alt?: string;
   caption?: string;
-  /** Optional extra CSS classes for the outer container */
   className?: string;
 }
 

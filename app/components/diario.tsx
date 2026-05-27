@@ -85,7 +85,7 @@ export default function Diario({ logs = DEFAULT_LOGS, className = "" }: DiarioPr
 
   return (
     <div className={`bg-dark-blue/60 border border-sand/30 rounded-3xl p-6 md:p-8 shadow-xl max-w-5xl mx-auto w-full backdrop-blur-md ${className}`}>
-      {/* Terminal Title Bar */}
+      
       <div className="flex flex-col sm:flex-row items-center justify-between border-b border-sand/20 pb-4 mb-6 gap-2">
         <div className="flex items-center gap-3">
           <span className="text-sand text-lg">📁</span>
@@ -101,10 +101,10 @@ export default function Diario({ logs = DEFAULT_LOGS, className = "" }: DiarioPr
         </div>
       </div>
 
-      {/* Main Terminal Grid */}
+     
       <div className="grid grid-col-1 md:grid-cols-3 gap-6">
         
-        {/* Left Side: Navigation Tabs */}
+        
         <div className="md:col-span-1 flex flex-col gap-2.5 max-h-[350px] overflow-y-auto pr-2 custom-scrollbar">
           <span className="text-xs font-mono text-cream/40 uppercase tracking-widest mb-1 block px-1">
             Índice de Registros
